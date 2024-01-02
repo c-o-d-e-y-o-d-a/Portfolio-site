@@ -4,7 +4,7 @@ const BottomMost = () => {
   return (
     <div>
       <p>
-        copyright symbol* nischal gautam
+       Copyright © 2023 Nischal Gautam. All Rights Reserved.
       </p>
     </div>
   )

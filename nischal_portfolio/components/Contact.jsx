@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <>
-      <section className="relative z-10 overflow-hidden bg-blue-800 px-20 py-20 dark:bg-dark lg:py-[120px]">
+      <section className=" z-10 overflow-hidden bg-blue-400 px-20 py-20 dark:bg-dark lg:py-[120px] text-yellow-200 bg-transparent ">
         <div className="container">
           <div className="-mx-4 flex flex-wrap lg:justify-between">
             <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
@@ -63,11 +63,7 @@ const Contact = () => {
                           fill="currentColor"
                         />
                       </g>
-                      <defs>
-                        <clipPath id="clip0_941_17577">
-                          <rect width="32" height="32" fill="white" />
-                        </clipPath>
-                      </defs>
+                      
                     </svg>
                   </div>
                   <div className="w-full h-9">
@@ -107,12 +103,13 @@ const Contact = () => {
               </div>
             </div>
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
-              <div className="relative rounded-lg bg-yellow-400 p-8 shadow-lg dark:bg-dark-2 sm:p-12">
+              <div className=" rounded-lg bg-yellow-400 p-8 shadow-lg dark:bg-dark-2 sm:p-12 opacity-90 border ">
                 <form>
                   <ContactInputBox
                     type="text"
                     name="name"
                     placeholder="Your Name"
+                    
                   />
                   <ContactInputBox
                     type="text"
@@ -133,29 +130,14 @@ const Contact = () => {
                   <div>
                     <button
                       type="submit"
-                      className="w-full rounded border border-primary bg-primary p-3 text-white transition hover:bg-opacity-90"
+                      className="w-full rounded border border-primary bg-primary p-3 text-white transition hover:bg-opacity-80 hover:cursor-pointer hover:bg-slate-400"
                     >
                       Send Message
                     </button>
                   </div>
                 </form>
                 <div>
-                  <span className="absolute -right-9 -top-10 z-[-1]">
-                    <svg
-                      width={100}
-                      height={100}
-                      viewBox="0 0 100 100"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        clipRule="evenodd"
-                        d="M0 100C0 44.7715 0 0 0 0C55.2285 0 100 44.7715 100 100C100 100 100 100 0 100Z"
-                        fill="#3056D3"
-                      />
-                    </svg>
-                 </span>
+                 
                 </div>
               </div>
             </div>

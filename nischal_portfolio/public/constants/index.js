@@ -17,6 +17,22 @@ export const SkillData = [
     width: 65,
     height: 65,
   },
+  {name:"Python",
+  Image:"/python.png",
+  width:65,
+  height:65,
+
+
+
+},
+{name:"java",
+  Image:"/java.png",
+  width:125,
+  height:125,
+
+
+
+},
   {
     name: "Tailwind Css",
     Image: "/tailwind.png",
@@ -68,3 +84,38 @@ export const SkillData = [
     height: 40,
   },
 ];
+
+
+export const projectData = [
+  {
+    id:1,
+    description:"The all-in-one stop for your healthcare needs",
+    image:"./css.png",
+    tag : ['All','Web'],
+  },
+   {
+    id:2,
+    description:"The all-in-one stop for your healthcare needs",
+    image:"./css.png",
+    tag : ['All','Web'],
+  },
+   {
+    id:3,
+    description:"The all-in-one stop for your healthcare needs",
+    image:"./css.png",
+    tag : ['All','Web'],
+  },
+   {
+    id:4,
+    description:"The all-in-one stop for your healthcare needs",
+    image:"./css.png",
+    tag : ['All','Web'],
+  },
+   {
+    id:5,
+    description:"The all-in-one stop for your healthcare needs",
+    image:"./css.png",
+    tag : ['All','Web'],
+  },
+  
+]
