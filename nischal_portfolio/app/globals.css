@@ -25,3 +25,48 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+/*start of card styling */
+.card-box{
+  height: 50dvh;
+  width: 30dvw;
+  border:2px solid yellow;
+  display: grid;
+  grid-template-rows: 1.2fr 1fr;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  
+
+}
+.image-card{
+  object-fit: contain;
+  overflow: hidden;
+}
+.footer{
+  background-color: rgb(63, 65, 64);
+  padding: 8px;
+}
+.title{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.description{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  
+}
+.call-2-action-button{
+  margin-left: 1rem;
+  border: 1px solid white;
+  border-radius: 16px;
+  padding: 3px 8px 3px 8px;
+  font-size: 0.9rem;
+}
+.call-2-action-button:hover{
+  opacity: 0.6;
+  cursor: pointer;
+  border-color: rgb(206, 205, 203);
+}

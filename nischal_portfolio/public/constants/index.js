@@ -86,36 +86,3 @@ export const SkillData = [
 ];
 
 
-export const projectData = [
-  {
-    id:1,
-    description:"The all-in-one stop for your healthcare needs",
-    image:"./css.png",
-    tag : ['All','Web'],
-  },
-   {
-    id:2,
-    description:"The all-in-one stop for your healthcare needs",
-    image:"./css.png",
-    tag : ['All','Web'],
-  },
-   {
-    id:3,
-    description:"The all-in-one stop for your healthcare needs",
-    image:"./css.png",
-    tag : ['All','Web'],
-  },
-   {
-    id:4,
-    description:"The all-in-one stop for your healthcare needs",
-    image:"./css.png",
-    tag : ['All','Web'],
-  },
-   {
-    id:5,
-    description:"The all-in-one stop for your healthcare needs",
-    image:"./css.png",
-    tag : ['All','Web'],
-  },
-  
-]
