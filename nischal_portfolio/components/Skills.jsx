@@ -12,7 +12,7 @@ const Skills = () => {
     <section id="Skills">
         <div
     style={{backgroundImage: "url(/bg-2.jpg)"}}
-    className='h-screen w-screen items-center justify-center bg-cover bg-center ms-32'>
+     className='min-h-screen w-full flex items-center justify-center bg-cover bg-center ps-8'>
       <div className='flex flex-col gap-20 max-w-[80%] text-center items-center'>
         <h1 className='font-semibold text-white text-[50px]'>
             My{" "}

@@ -15,10 +15,11 @@ const About = () => {
   return (
     <motion.div
       initial="hidden"
+      id="about"
       animate="visible"
       className="flex flex-row items-center justify-center px-20 mt-32 w-full z-[20] mb-20"
     >
-      <div className="h-full w-full flex flex-col gap-4 justify-center m-auto text-start">
+      <div className="h-full w-full flex flex-col gap-4 justify-center m-auto text-start" >
 
 
         <motion.div
@@ -39,7 +40,7 @@ const About = () => {
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
           I&apos;m a Full Stack Software Engineer with experience in Website,
-          Mobile, and Software development. Check out my projects and skills.
+           development , Mobile development and Ui/Ux design. Check out my projects and skills.
         </motion.p>
        
       </div>

@@ -14,8 +14,16 @@ const ProjectCard = (props) => {
 				{props.description}
 			</div>
 			<div className="call-to-action">
-				<button className="call-2-action-button">View Project</button>
-				<button className="call-2-action-button">View Code</button>
+				<button className="call-2-action-button">
+					 <a href={props.site_deploy_link} target="_blank" rel="noopener noreferrer">
+    View Project
+  </a>
+					</button>
+				<button className="call-2-action-button">
+					<a href={props.site_repo}>
+						View Code
+					</a>
+				</button>
 			</div>
 
 

@@ -4,18 +4,25 @@
 
 import React from "react";
 import ProjectCard from "./ProjectCard";
-const prop_example = {
-  src:'/LXWBga.png',
-  title:'My project',
-  description:"randomfadojfodjsoifjsdoijf dfgsgf"
-}
+import { project_list } from "@/public/constants";
 export default function ProjectSection() {
   return (
-   <section id="project-section" className="mt-12 text-center ">
+   <section id="project-section" className="mt-12 text-center project-section-1">
    <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500 text-6xl"> Projects</h1>
    
-   <div className="project-section">
-    <ProjectCard src={prop_example.src} title={prop_example.title} description={prop_example.description}/>
+   <div className="project-section-2">
+   {project_list.map((prop_example) => (
+  <ProjectCard
+    key={prop_example.id} // Add a unique key for each item in the list
+    src={prop_example.src}
+    title={prop_example.title}
+    description={prop_example.description}
+    site_deploy_link={prop_example.site_deploy_link}
+    site_repo={prop_example.site_repo}
+  />
+))}
+
+    
     
 
    </div>

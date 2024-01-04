@@ -3,6 +3,7 @@ import About from '@/components/About'
 import Contact from '@/components/Contact'
 import Skills from '@/components/Skills'
 import ProjectSection from '@/components/ProjectSection'
+import BottomMost from '@/components/BottomMost'
 export default function Home() {
   return (
     <main>
@@ -11,6 +12,7 @@ export default function Home() {
       
       <ProjectSection/>
       <Contact/>
+      <BottomMost/>
       
     </main>
   )

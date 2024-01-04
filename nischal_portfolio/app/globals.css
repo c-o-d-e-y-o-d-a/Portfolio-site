@@ -29,14 +29,20 @@ body {
 
 /*start of card styling */
 .card-box{
-  height: 50dvh;
-  width: 30dvw;
+  max-height: 350px;
+  width: 39dvw;
+  min-width: 350px;
   border:2px solid yellow;
   display: grid;
   grid-template-rows: 1.2fr 1fr;
   overflow: hidden;
   border-radius: 10px;
   position: relative;
+  margin-left: 3rem;
+  margin-bottom: 2.8rem;
+ box-shadow: 5px -19px 83px -24px rgba(126,224,215,0.86);
+-webkit-box-shadow: 5px -19px 83px -24px rgba(126,224,215,0.86);
+-moz-box-shadow: 5px -19px 83px -24px rgba(126,224,215,0.86);
   
 
 }
@@ -70,3 +76,28 @@ body {
   cursor: pointer;
   border-color: rgb(206, 205, 203);
 }
+.project-section-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Optional: Centers the items horizontally within the container */
+  padding-top: 3rem;
+
+}
+
+ .social-media {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: fit-content;
+  gap:2vw;
+  background-color: rgb(222, 221, 218);
+  padding: 5px 10px 5px 10px;
+  border-radius: 14px;
+  box-shadow: 5px -19px 83px -24px rgba(126,224,215,0.86);
+-webkit-box-shadow: 5px -19px 83px -24px rgba(126,224,215,0.86);
+-moz-box-shadow: 5px -19px 83px -24px rgba(126,224,215,0.86);
+opacity: 0.7;
+
+ }
+ #social-media{
+  position: relative;
+ }
