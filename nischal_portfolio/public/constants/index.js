@@ -97,7 +97,7 @@ export const  project_list = [
   },
   {
     id:'2',
-    src:'/LXWBga.png',
+    src:'/mobilon.png',
     title:'Mobilon Club Site',
     description:'Old official site of the official mobile development club of Bennett University',
     site_deploy_link:"https://c-o-d-e-y-o-d-a.github.io/site-code/",
@@ -113,17 +113,17 @@ export const  project_list = [
   },
   {
     id:'4',
-    src:'/LXWBga.png',
+    src:'/docotorji.png',
     title:'Doctor-ji',
     description:'a website that allows you to search doctors in your are and get the best treatment',
-    site_deploy_link:" ",
-    site_repo:" "
+    site_deploy_link:"https://sih-business-site-hedr.vercel.app/",
+    site_repo:"https://github.com/c-o-d-e-y-o-d-a/Doctor-Ji"
   },
   {
     id:'5',
-    src:'/LXWBga.png',
-    title:'Doctor-ji',
-    description:'a website that allows you to search doctors in your are and get the best treatment',
+    src:'/uiux.png',
+    title:'Figma Designs',
+    description:'Figma designs created to provide a UI which is user friendly , aesthetic , mimalist and gives the user a good experience',
     site_deploy_link:" ",
     site_repo:" "
   },
