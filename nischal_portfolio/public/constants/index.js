@@ -92,8 +92,8 @@ export const  project_list = [
     src:'/LXWBga.png',
     title:'Nischal App',
     description:'We made into the top 5 team nationally of the prestigious kavach hackathon , which is orgaised by the indian government.',
-    site_deploy_link:" ",
-    site_repo:" "
+    site_deploy_link:"https://github.com/c-o-d-e-y-o-d-a/Kavach-nischal-updated",
+    site_repo:"https://github.com/c-o-d-e-y-o-d-a/Kavach-nischal-updated"
   },
   {
     id:'2',
@@ -124,7 +124,7 @@ export const  project_list = [
     src:'/uiux.png',
     title:'Figma Designs',
     description:'Figma designs created to provide a UI which is user friendly , aesthetic , mimalist and gives the user a good experience',
-    site_deploy_link:" ",
-    site_repo:" "
+    site_deploy_link:"https://www.figma.com/@nischal7171",
+    site_repo:"https://www.figma.com/@nischal7171"
   },
 ]
