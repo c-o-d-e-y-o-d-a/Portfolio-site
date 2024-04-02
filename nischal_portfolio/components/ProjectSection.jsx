@@ -8,7 +8,7 @@ import { project_list } from "@/public/constants";
 export default function ProjectSection() {
   return (
    <section id="project-section" className="mt-12 text-center project-section-1">
-   <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500 text-6xl"> Projects</h1>
+   <h1 className="text-transparent mb-10 font-bold bg-clip-text bg-gradient-to-r from-purple-500 to-red-500 text-6xl z-[20]"> Projects</h1>
    
    <div className="project-section-2">
    {project_list.map((prop_example) => (

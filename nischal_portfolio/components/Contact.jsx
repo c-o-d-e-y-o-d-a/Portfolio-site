@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <>
-      <section className="  overflow-hidden bg-blue-400 px-20 pt-20 dark:bg-dark lg:py-[120px] text-yellow-200 bg-transparent "id='Contact-section' >
+      <section className="  overflow-hidden  px-20 pt-20 dark:bg-dark lg:py-[120px] text-yellow-200 bg-transparent "id='Contact-section' >
         <div className="container">
           <div className="-mx-4 flex flex-wrap lg:justify-between">
             <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
@@ -40,7 +40,7 @@ const Contact = () => {
                   </div>
                 </div>
 
-                <div className="mb-8 flex w-full max-w-[370px]">
+                <div className="mb-20 md:mb-8 flex w-full max-w-[370px]">
                   <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-primary/5 text-primary sm:h-[70px] sm:max-w-[70px]">
                     <svg
                       width="32"
@@ -77,7 +77,7 @@ const Contact = () => {
                 </div>
 
                 <div className="mb-8 flex w-full max-w-[370px]">
-                  <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-primary/5 text-primary sm:h-[70px] sm:max-w-[70px]">
+                  <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-primary/5 text-primary  ">
                     <svg
                       width="32"
                       height="32"
@@ -92,7 +92,7 @@ const Contact = () => {
                     </svg>
                   </div>
                   <div className="w-full">
-                    <h4 className="mb-1 text-xl font-bold text-dark dark:text-white">
+                    <h4 className="mb-2 text-xl font-bold text-dark dark:text-white">
                       Email Address
                     </h4>
                     <p className="text-base text-body-color dark:text-dark-6">
@@ -103,7 +103,7 @@ const Contact = () => {
               </div>
             </div>
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
-              <div className=" rounded-lg bg-yellow-400 p-8 shadow-lg dark:bg-dark-2 sm:p-12 opacity-90 border ">
+              <div className=" rounded-lg bg-yellow-400 p-8 shadow-lg dark:bg-dark-2  opacity-90 border ">
                 <form>
                   <ContactInputBox
                     type="text"

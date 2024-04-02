@@ -2,7 +2,7 @@ import React from 'react'
 
 const ProjectCard = (props) => {
   return (
-	<div className='card-box'>
+	<div className='card-box '>
 		<div className="image-card">
 			<img src={props.src} alt="" id='card-image'/>
 		</div>
